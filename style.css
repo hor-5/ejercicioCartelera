@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #f8f8ff!important;
+    background: url(https://vanidad.es/images/carpeta_relacionados/2017/03/13/peliculas-documentales-portada-vanidad.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pelicula{
+    height: 200px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow:  2px 2px 6px #0b2433,
+             -2px -2px 6px #7b7d7e;
+    object-fit: cover;
+}
+
+.pelicula:hover{
+    opacity: 80%;
+    background-color: #7b7d7e;
+}
+
+.modal{
+    background-color: #7b7d7e62;    
+}
+.modal-content{
+    border-radius: 25px!important;
+    
+}
+.table{
+    border-radius: 20px;
+}
+button{
+    font-weight: bolder!important;
+}
+
+@media(max-width:765px){
+    .pelicula{
+        margin-top: 10px;
+    }
+    iframe{
+        width: 310px!important;
+    }
+    table{
+        width: 300px!important;
+        height: 250px!important;
+    }
+}
